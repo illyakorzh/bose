@@ -6,7 +6,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
-
   font-family: "Inter", sans-serif;
 }
 
@@ -34,7 +33,7 @@ header {
 }
 
 .menu {
-  max-width: 1260px;
+
   position: fixed;
   top: 0;
   right: 0;
