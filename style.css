@@ -1,0 +1,198 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-image: url("./img/header-bg.png");
+  box-sizing: border-box;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding: 64px 120px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-top-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  max-width: 1260px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 64px 120px;
+  height: 100vh;
+  background-color: #e5e5e5;
+  transform: translateX(-100vw);
+  transition: transform 500ms;
+
+}
+
+.menu:target {
+  transform: translateX(0);
+}
+
+.list-menu {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  width: 198px;
+  gap: 32px;
+  margin-top: 64px;
+}
+
+.list-menu a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #292929;
+  position: relative;
+}
+
+.list-menu a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.screen-two {
+  padding: 120px;
+  background-color: #e5e5e5;
+}
+
+.screen-two-wrapper-imgs {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: center;
+
+}
+
+.name-price-speaker {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.purpose-of-use {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+
+}
+
+.screen-two-wrapper-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.screen-two-wrapper-imgs .screen-two-wrapper-img:nth-child(2) {
+  margin: 0 24px;
+}
+
+.screen-three {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+
+.screen-three-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.screen-three-description-img {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #292929;
+  margin-top: 16px;
+}
+
+.screen-three-wrapper-img img:first-child {
+  margin-right: 24px;
+}
+.screen-four{  background-color: #e5e5e5;}
+
+.screen-four-top {
+  padding: 120px;
+
+}
+
+.screen-four strong {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  color: #292929;
+}
+
+.screen-four p {
+  margin: 40px 0 0 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #292929;
+}
+
+.screen-four-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.screen-four-top-right-column {
+  max-width: 500px;
+}
+
+footer {
+  background-image: url("./img/Rectangle 27.png");
+  height: 460px;
+  background-size: cover;
+  position: sticky;
+  bottom: 0;z-index: -1;
+
+}
